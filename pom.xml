@@ -55,7 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	<finalName>odev2</finalName>
+		<finalName>odev2</finalName>
 	</build>
 
 </project>
