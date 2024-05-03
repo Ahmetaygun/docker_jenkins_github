@@ -4,9 +4,10 @@ Bu projede Maven projesini Docker, Jenkins ve GitHub arasında birbirine bağlay
 
 
 In this project, we automated the updating of Maven projects between Docker, Jenkins, and GitHub by connecting them. With this approach, Jenkins tracks changes made on GitHub and automatically updates the project in Docker for distribution. This automation streamlines the software development process and enables faster feedback cycles.
-
+//////
 
 jenkins pipeline script
+
 pipeline{
     agent any
     tools{
