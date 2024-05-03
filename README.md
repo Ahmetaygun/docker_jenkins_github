@@ -31,8 +31,10 @@ pipeline{
                         userRemoteConfigs: [[url: 'https://github.com/Ahmetaygun/docker_jenkins_github']]
                         
                     )
+
                     
                     bat 'mvn clean install'
+                    
                     
                 }
                 
@@ -44,10 +46,13 @@ pipeline{
              
                  script {
 
-                    bat 'docker stop docker_jenkins_github
- '
-                    bat 'docker rm docker_jenkins_github
-'
+
+                    bat 'docker stop docker_jenkins_github'
+                    
+ 
+                    bat 'docker rm docker_jenkins_github'
+                    
+
                  }
                  
               }
